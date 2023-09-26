@@ -41,10 +41,10 @@ button {
 /*============(Header)===============*/
 .header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #000000;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   height: 60px;
   position: fixed;
@@ -53,6 +53,25 @@ button {
   width: 100%;
   z-index: 1000;
 }
+
+.header__button {
+  position: absolute;
+  right: 5px;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+
+/* .button-content {
+  display: flex;
+  align-items: end;
+}
+
+.button-content span {
+  font-size: medium;
+  margin-right: 10px;
+  /* Adjust the spacing between text and icon as needed */
+} */
 
 /*============(Hero)===============*/
 .hero {
@@ -88,6 +107,8 @@ button {
 /*============(About)===============*/
 .about {
   padding: 4rem 2rem;
+  background-color: darkcyan;
+  color: black;
 }
 
 .about h2 {
